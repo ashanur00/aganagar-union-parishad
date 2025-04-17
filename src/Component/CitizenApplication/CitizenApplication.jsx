@@ -242,7 +242,7 @@ const CitizenApplication = () => {
                 </div>
                 <div className="card bg-base-100 w-64 shadow-xl">
                     <figure className="px-10 pt-10">
-                        <FaIdCard className='text-5xl' />
+                        <img src="/src/assets/icons8-travel-diary-50.png" alt="" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">পাসপোর্ট সংক্রান্ত প্রত্যয়ন পত্র</h2>
@@ -253,7 +253,7 @@ const CitizenApplication = () => {
                 </div>
                 <div className="card bg-base-100 w-64 shadow-xl">
                     <figure className="px-10 pt-10">
-                        <FaIdCard className='text-5xl' />
+                        <img src="/src/assets/icons8-document-50.png" alt="" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">অনাপত্তি সনদ</h2>
@@ -264,7 +264,7 @@ const CitizenApplication = () => {
                 </div>
                 <div className="card bg-base-100 w-64 shadow-xl">
                     <figure className="px-10 pt-10">
-                        <FaIdCard className='text-5xl' />
+                        <img src="/src/assets/icons8-video-id-verification-50.png" alt="" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">আবেদনকৃত ভোটারের তথ্য যাচাই-বাছাই প্রতিবেদন</h2>
@@ -275,7 +275,7 @@ const CitizenApplication = () => {
                 </div>
                 <div className="card bg-base-100 w-64 shadow-xl">
                     <figure className="px-10 pt-10">
-                        <FaIdCard className='text-5xl' />
+                        <img src="/src/assets/icons8-policy-document-50.png" alt="" />
                     </figure>
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">ভোটার তালিকায় বাদ পড়া সংক্রান্ত প্রত্যয়ন</h2>
