@@ -1,3 +1,4 @@
+import CitizenApplication from "../../../Component/CitizenApplication/CitizenApplication";
 import MarQuee from "../../../Component/Marquee/MarQuee";
 import Serach from "../../../Component/Search/Search/Serach";
 
@@ -6,8 +7,7 @@ const Home = () => {
         <div>
             <MarQuee/>
             <Serach/>
-            <h1 className="text-3xl text-center mb-5">নাগরিক আবেদন</h1>
-            
+            <CitizenApplication/>        
         </div>
     );
 };
