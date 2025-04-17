@@ -1,4 +1,5 @@
 import CitizenApplication from "../../../Component/CitizenApplication/CitizenApplication";
+import FamilyApplication from "../../../Component/FamilyApplication/FamilyApplication";
 import MarQuee from "../../../Component/Marquee/MarQuee";
 import Serach from "../../../Component/Search/Search/Serach";
 
@@ -7,7 +8,8 @@ const Home = () => {
         <div>
             <MarQuee/>
             <Serach/>
-            <CitizenApplication/>        
+            <CitizenApplication/>
+            <FamilyApplication/>        
         </div>
     );
 };
