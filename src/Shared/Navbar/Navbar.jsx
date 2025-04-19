@@ -8,10 +8,10 @@ const Navbar = () => {
             <details>
                 <summary>আবেদন</summary>
                 <ul className="p-2">
-                    <li><Link to= '/nagorik'>নাগরিক আবেদন</Link></li>
-                    <li><Link to= '/oyaris'>ওয়ারিশ/পারিবারিক আবেদন</Link></li>
-                    <li><Link to= '/tradeLicense '>ট্রেড লাইসেন্স আবেদন</Link></li>
-                    <li><Link to= '/newHolding'>নতুন হোল্ডিং আবেদন</Link></li>
+                    <li><Link to= '/fromApplication'>নাগরিক আবেদন</Link></li>
+                    <li><Link to= '/fromApplication'>ওয়ারিশ/পারিবারিক আবেদন</Link></li>
+                    <li><Link to= '/fromApplication '>ট্রেড লাইসেন্স আবেদন</Link></li>
+                    <li><Link to= '/fromApplication'>নতুন হোল্ডিং আবেদন</Link></li>
                 </ul>
             </details>
         </li>

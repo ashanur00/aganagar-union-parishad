@@ -3,11 +3,12 @@ import { FaIdCard, FaPassport } from 'react-icons/fa';
 import { GiCharacter } from 'react-icons/gi';
 import { PiCertificateBold } from 'react-icons/pi';
 import { TbCertificate2 } from 'react-icons/tb';
+import { Link } from 'react-router-dom';
 
 const CitizenApplication = () => {
     return (
         <div>
-            <h1 className='text-4xl text-center'>নাগরিক আবেদন</h1>
+            <h1 className='text-4xl text-center border-b-2'>নাগরিক আবেদন</h1>
             <div className='grid grid-cols-1 md:grid-cols-1 mr-10 lg:grid-cols-4 gap-5'>
                 <div className="card bg-base-100 w-64 shadow-xl">
                     <figure className="px-10 pt-10">
@@ -16,7 +17,8 @@ const CitizenApplication = () => {
                     <div className="card-body items-center text-center">
                         <h2 className="card-title">নাগরিকত্ব সনদ</h2>
                         <div className="card-actions">
-                            <button className="btn btn-primary">আবেদন</button>
+                            <Link to='/fromApplication' className="btn btn-primary">আবেদন
+                           </Link>
                         </div>
                     </div>
                 </div>
